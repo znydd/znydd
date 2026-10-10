@@ -1,0 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
+@import "tailwindcss" source("../");
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-mono: "JetBrains Mono", monospace;
+}
